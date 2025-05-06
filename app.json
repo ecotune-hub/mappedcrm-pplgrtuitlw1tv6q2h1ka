@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "MappedCRM",
+    "slug": "mappedcrm-pplgrtuitlw1tv6q2h1ka",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ecotune.mappedcrmpplgrtuitlw1tv6q2h1ka"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ecotune.mappedcrmpplgrtuitlw1tv6q2h1ka"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "14ab3ca2-a600-4e85-9870-86b3a64aa2f2"
+      }
+    },
+    "owner": "ecotune",
+    "updates": {
+      "url": "https://u.expo.dev/14ab3ca2-a600-4e85-9870-86b3a64aa2f2"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
