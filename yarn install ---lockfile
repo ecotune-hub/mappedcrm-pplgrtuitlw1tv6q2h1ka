@@ -1,0 +1,4 @@
+$ cd ./my/npm/project
+$ npm install
+added 154 packages in 10s
+$ ls | grep package-lock
